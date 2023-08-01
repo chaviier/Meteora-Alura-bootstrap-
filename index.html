@@ -11,7 +11,6 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
-
 <body>
 
   <nav class="navbar navbar-expand-md bg-black navbar-dark">
@@ -39,7 +38,7 @@
           </li>
         </ul>
         <form class="d-flex" role="search">
-          <input class="rounded-0 form-control me-2" type="search" placeholder="Digite o produto" aria-label="Search">
+          <input class="rounded-0 form-control me-2" type="Pesquisar" placeholder="Digite o produto" aria-label="Search">
           <button class="btn btn-outline-light rounded-0" type="submit">Buscar</button>
         </form>
       </div>
@@ -170,19 +169,21 @@
     </div>
   </div>
 
-  <h2 class="text-center my-3 container">Produtos que estão bombando!</h2>
+  <h2 class="text-center my-3 my-xl-5">Produtos que estão bombando!</h2>
 
 
-  <div class="container row mx-auto g-4">
+  <div class="container row mx-auto">
 
-    <div class="col-12 col-md-6 col-xxl-4">
+    <div class="col-12 col-md-6 col-xxl-4 pb-4">
 
       <div class="card">
-        <img src="./meteora-assets-main/assets/Mobile/produtos/camiseta.png" alt="">
+        <img class="d-block d-md-none" src="./meteora-assets-main/assets/Mobile/produtos/camiseta.png" alt="">
+        <img class="d-none d-md-block d-xl-none" src="./meteora-assets-main/assets/Tablet/produtos/camiseta.png" alt="">
+        <img class="d-none d-xl-block" src="./meteora-assets-main/assets/Desktop/produtos/camiseta.png" alt="">
         <div class="card-body">
-          <h5 class="card-title">Camisa Conforto</h5>
+          <h5 class="card-title fw-bold">Camisa Conforto</h5>
           <p class="card-text">Multicores e tamanhos. Tecido de algodão 100%, fresquinho para o verão. Modelagem unissex.</p>
-          <p>R$30,00</p>
+          <p class="fw-bold">R$30,00</p>
           <a href="#" class="btn btn-primary botao-lilas rounded-0 border-0">Ver mais</a>
         </div>
       </div>
@@ -190,29 +191,32 @@
     </div>
 
 
-    <div class="col-12 col-md-6 col-xxl-4">
+    <div class="col-12 col-md-6 col-xxl-4 pb-4">
 
       <div class="card">
-        <img src="./meteora-assets-main/assets/Mobile/produtos/calca.png" alt="">
+        <img class="d-md-none d-block"  src="./meteora-assets-main/assets/Mobile/produtos/calca.png" alt="">
+        <img class="d-none d-md-block d-xl-none" src="./meteora-assets-main/assets/Tablet/produtos/calca.png" alt="">
+        <img class="d-none d-xl-block" src="./meteora-assets-main/assets/Desktop/produtos/calca.png" alt="">
         <div class="card-body">
-          <h5 class="card-title">Calça Alfaiataria</h5>
+          <h5 class="card-title fw-bold">Calça Alfaiataria</h5>
           <p class="card-text">Modelo Wide Leg alfaiataria em linho. Uma peça pra vida toda!</p>
-          <p>R$ 180,00</p>
+          <p class="fw-bold">R$ 180,00</p>
           <a href="#" class="btn btn-primary botao-lilas rounded-0 border-0">Ver mais</a>
         </div>
       </div>
 
     </div>
 
-
-    <div class="col-12 col-md-6 col-xxl-4">
+    <div class="col-12 col-md-6 col-xxl-4 pb-4">
 
       <div class="card">
         <img src="./meteora-assets-main/assets/Mobile/produtos/tenis.png" alt="">
+        <img class="d-none d-md-none d-xl-none" src="./meteora-assets-main/assets/Tablet/produtos/tenis.png" alt="">
+        <img class="d-none d-xl-block" src="./meteora-assets-main/assets/Desktop/produtos/tenis.png" alt="">
         <div class="card-body">
-          <h5 class="card-title">Tênia Chunky</h5>
+          <h5 class="card-title fw-bold">Tênia Chunky</h5>
           <p class="card-text">Snicker casual com solado mais alto e modelagem robusta. Modelo unissex.</p>
-          <p>R$ 250,00</p>
+          <p class="fw-bold">R$ 250,00</p>
           <a href="#" class="btn btn-primary botao-lilas rounded-0 border-0">Ver mais</a>
         </div>
       </div>
@@ -220,68 +224,63 @@
     </div>
 
 
-    <div class="col-12 col-md-6 col-xxl-4">
+    <div class="col-12 col-md-6 col-xxl-4 pb-4">
+
+      <div class="card">
+        <img src="./meteora-assets-main/assets/Mobile/produtos/jaqueta-jeans.png" alt="">
+        <img class="d-none d-md-none d-xl-none" src="meteora-assets-main/assets/Tablet/produtos/jaqueta-jeans.png" alt="">
+        <img class="d-none d-xl-block" src="meteora-assets-main/assets/Desktop/produtos/jaqueta-jeans.png" alt="">
+        
+        <div class="card-body">
+          <h5 class="card-title fw-bold">jaqueta Jeans</h5>
+          <p class="card-text">Modelo unissex oversized com gola de camurça. Atemporal e autêntica!</p>
+          <p class="fw-bold">R$30,00</p>
+          <a href="#" class="btn btn-primary botao-lilas rounded-0 border-0">Ver mais</a>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="col-12 col-md-6 col-xxl-4 pb-4">
+
+      <div class="card">
+        <img src="./meteora-assets-main/assets/Mobile/produtos/bolsa.png" alt="">
+        <img class="d-none d-md-none d-xl-none" src="./meteora-assets-main/assets/Tablet/produtos/bolsa.png" alt="">
+        <img class="d-none d-xl-block" src="meteora-assets-main/assets/Desktop/produtos/bolsa.png" alt="">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">Bolsa Coringa</h5>
+          <p class="card-text">Bolsa camel em couro sintético de alta duração. Ideal para acompanhar você por uma vida!</p>
+          <p class="fw-bold">R$130,00</p>
+          <a href="#" class="btn btn-primary botao-lilas rounded-0 border-0">Ver mais</a>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="col-12 col-md-6 col-xxl-4 pb-4">
 
       <div class="card">
         <img src="./meteora-assets-main/assets/Mobile/produtos/oculos.png" alt="">
+        <img class="d-none d-md-none d-xl-none" src="meteora-assets-main/assets/Tablet/produtos/oculos.png" alt="">
+        <img class="d-none d-xl-block" src="./meteora-assets-main/assets/Desktop/produtos/oculos.png" alt="">
         <div class="card-body">
-          <h5 class="card-title">Acessórios</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
-          <p>R$30,00</p>
-          <a href="#" class="btn btn-primary botao-lilas rounded-0 border-0">Ver mais</a>
-        </div>
-      </div>
-
-    </div>
-
-
-    <div class="col-12 col-md-6 col-xxl-4">
-
-      <div class="card">
-        <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg"
-          role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
-          <title>Placeholder</title>
-          <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image
-            cap</text>
-        </svg>
-        <div class="card-body">
-          <h5 class="card-title">Produto</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
-          <p>R$30,00</p>
-          <a href="#" class="btn btn-primary botao-lilas rounded-0 border-0">Ver mais</a>
-        </div>
-      </div>
-
-    </div>
-
-
-    <div class="col-12 col-md-6 col-xxl-4">
-
-      <div class="card">
-        <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg"
-          role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
-          <title>Placeholder</title>
-          <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image
-            cap</text>
-        </svg>
-        <div class="card-body">
-          <h5 class="card-title">Produto</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
-          <p>R$30,00</p>
+          <h5 class="card-title">Óculos</h5>
+          <p class="card-text">Armação metálica em grafite com lentes arredondadas. Sem erro!</p>
+          <p class="fw-bold">R$180,00</p>
           <a href="#" class="botao-lilas btn btn-primary rounded-0 border-0">Ver mais</a>
         </div>
       </div>
     </div>
   </div>
 
-  <section class="pb-4 bg-black">
+  <section class="pb-4 bg-black text-bg-dark">
 
     <h2 class="text-center ">Conheça todas as nossas facilidades.</h2>
-    <div class="d-flex flex-column align-items-center gap-3 flex-lg-row justify-content-lg-evenly pt-3">
-      <div class="divs-facilidades d-flex">
+
+    <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center gap-3 px-3">
+      <div class="divs-facilidades d-flex align-items-center">
         <div><i class="verde-limao bi bi-x-diamond fs-1"></i></div>
         <div>
           <div class="ms-3 mb-1 verde-limao">PAGUE PELO PIX</div>
@@ -307,12 +306,12 @@
     </div>
   </section>
 
-  <form class="my-3 my-xl-5 border border-secondary container text-center">
+  <form class="container border border-secondary my-3 my-xl-5 p-3 text-center div-novidades mx-auto">
     <h5>Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira compra? Cadastre-se!</h5>
     <div class="input-group my-3">
       <input class="form-control border-secondary rounded-0" type="email" placeholder="Digite seu e-mail"
         aria-label="Digite seu e-mail" aria-describedby="button-addon2" />
-      <button class="botao-lilas border-0" type="button" id="button-addon2">Enviar</button>
+      <button class="btn btn-primary botao-lilas rounded-0 border-0" type="button" id="button-addon2">Enviar</button>
     </div>
   </form>
 
